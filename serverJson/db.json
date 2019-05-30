@@ -1,0 +1,28 @@
+{
+    "users" : 
+    [
+        {
+            "id" : "1",
+            "nom" : "Pierre",
+            "age" : 29
+        },
+        {
+            "id" : "2",
+            "nom" : "Stephanie",
+            "age" : 27
+        }
+    ],
+    
+    "compagnies" : 
+    [
+        {
+            "id" : "1",
+            "nomCompany" : "Google"
+        },
+
+        {
+            "id" : "2",
+            "nomCompany" : "Apple"
+        }
+    ]
+}
