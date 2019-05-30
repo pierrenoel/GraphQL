@@ -38,12 +38,8 @@ server.listen(4000,() => {
 })
 ```
 
-## 5. Start Json server
+## 5. Start Json server & express in two seperate terminal
 ```TERMINAL
 json-server --watch db.json
-```
-
-## 6. Start express
-```TERMINAL
 node server.js
 ```
