@@ -1,4 +1,10 @@
 ### Json server
+
+## 0. Create a directory and execute this command
+``` TERMINAL
+npm init
+```
+
 ## 1 . Install json-server on your machine
 ``` TERMINAL
 npm install -g json-server
