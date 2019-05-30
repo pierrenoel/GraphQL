@@ -13,7 +13,7 @@ npm install -g json-server
 
 ```json
 {
-  "user" : 
+  "users" : 
   [
    {
     "id" : "1",
