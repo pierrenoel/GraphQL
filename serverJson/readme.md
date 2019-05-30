@@ -8,6 +8,7 @@ npm init
 ## 2 . Install json-server on your machine
 ``` TERMINAL
 npm install -g json-server
+npm install express
 ```
 ## 3. Create a db.json
 
@@ -26,8 +27,23 @@ npm install -g json-server
   ]
 }
 ```
+## 4. Create a server.js
 
-## 4. Start Json server
+```JS
+const express = require('express')
+const server = express()
+
+server.listen(4000,() => {
+  console.log("Le serveur est sur écoute")
+})
+```
+
+## 5. Start Json server
 ```TERMINAL
 json-server --watch db.json
+```
+
+## 6. Start express
+```TERMINAL
+node server.js
 ```
