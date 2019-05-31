@@ -10,7 +10,6 @@ npm install express express-graphql graphql axios
 ## 2. Création du serveur 
 ```terminal
 touch server.js
-cd server.js
 ```
 
 ```javascript
@@ -27,3 +26,29 @@ server.listen(4000,() => {
     console.log("Serveur est en écoute sur le port 4000")
 })
 ```
+## 3. db.json
+```terminal
+touch db.json
+```
+*Exemple*
+
+```json
+{
+    "users":[
+        {
+            "id":"2",
+            "name":"Pierre"
+        },
+        {
+            "id":"2",
+            "name":"Marc"
+        }
+    ]
+}
+```
+
+Lire le json
+``` terminal
+json-server --watch db.json
+```
+
