@@ -108,4 +108,30 @@ module.exports = new GraphQLSchema({
     query:RootQuery
 })
 ```
+## 6. Tester une requête
+Pour que cela marche, il faut lancer ces deux commandes (dans deux terminal différent!)
+``` terminal
+json-server --watch db.json
+node server.js
+```
+Rendez-vous à l'url localhost:4000/graphql
 
+``` 
+query{
+  user(id:"2")
+  {
+    name
+  }
+}
+```
+=> Résultat: 
+
+```
+{
+  "data": {
+    "user": {
+      "name": "Marc"
+    }
+  }
+}
+```
