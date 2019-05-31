@@ -116,6 +116,7 @@ node server.js
 ```
 Rendez-vous à l'url localhost:4000/graphql
 
+Tapez à gauche
 ``` 
 query{
   user(id:"2")
@@ -124,7 +125,7 @@ query{
   }
 }
 ```
-=> Résultat: 
+=> Résultat à droite
 
 ```
 {
