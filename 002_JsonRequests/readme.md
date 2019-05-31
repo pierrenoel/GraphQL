@@ -18,7 +18,7 @@ const expressGraphQl = require('express-graphql')
 
 const server = express()
 
-server.use('/salutGraphQL', expressGraphQl({
+server.use('/GraphQL', expressGraphQl({
     graphiql:true,
 }))
 

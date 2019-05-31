@@ -2,15 +2,28 @@
     "users": [
         {
             "id" : "1",
-            "name" : "Pierre"
+            "name" : "Pierre",
+            "id_entreprise" : 1
         },
         {
             "id" : "2",
-            "name" : "Marc"
+            "name" : "Marc",
+            "id_entreprise" : 1
         },
         {
             "id" : "3",
-            "name" : "Jean"
+            "name" : "Jean",
+            "id_entreprise" : 2
+        }
+    ],
+    "entreprises":[
+        {
+            "id" : "1",
+            "name" : "Apple"
+        },
+        {
+            "id" : "2",
+            "name" : "Microsoft"
         }
     ]
 }
