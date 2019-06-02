@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Pierre"
+    },
+    {
+      "id": 2,
+      "name": "Stephanie"
+    },
+    {
+      "name": "Jean",
+      "id": 3
+    },
+    {
+      "name": "Biek",
+      "id": 4
+    },
+    {
+      "name": "fils de pute",
+      "id": 5
+    }
+  ]
+}
